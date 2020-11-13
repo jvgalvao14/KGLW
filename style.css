@@ -1,13 +1,12 @@
 @font-face {
-  font-family: 'fonteroberta';
+  font-family: fonteroberta;
   src: url("Assets/roberta-webfont.woff2") format('woff2'),
        url('Assets/roberta-webfont.woff') format('woff');
 }
 
 *{
-  font-family: fonteroberta;
+  font-family: "fonteroberta";
 }
-
 
 body{
   overflow-x: hidden;
@@ -23,7 +22,7 @@ a:hover {
   color: #ff0000;;
 }
 .col-auto{
-  font-family:fonteroberta;
+  font-family:"fonteroberta";
   float:left;
 }
 .col-md-8 {
