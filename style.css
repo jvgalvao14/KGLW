@@ -34,9 +34,6 @@ a:hover {
     font-size: 5rem;
   }
   .btn-primary{
-  
-  
-
   padding: auto;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -62,7 +59,7 @@ a:hover {
   max-width: 45%;
 }
 .lead{
-  font-size: 2rem;
+  font-size: 3rem;
   -webkit-text-stroke: 1px #00882d;
 }
 .btn-secondary:hover,
@@ -82,10 +79,13 @@ a:hover {
   border-radius: 2px;
 }
 .disco{
+  padding-top:20px;
   text-align: center;
  
   
 }
+
+
 .container { 
   width:600px; 
   height:190px; 
@@ -131,6 +131,7 @@ a:hover {
 } 
 .text-uppercase{
   font-size: 40px;
+  padding-left: 40px;
 }
 
 
