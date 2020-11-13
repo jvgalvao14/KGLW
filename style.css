@@ -1,11 +1,13 @@
 @font-face {
-  font-family: "roberta";
-  src: url('roberta-webfont.woff2') format('woff2'),
-       url('roberta-webfont.woff') format('woff');
+  font-family: fonteroberta;
+  src: url("Assets/roberta-webfont.woff2") format('woff2'),
+       url('Assets/roberta-webfont.woff') format('woff');
 }
+
 *{
-  font-family: "roberta";
+  font-family: "fonteroberta";
 }
+
 
 body{
   overflow-x: hidden;
@@ -15,9 +17,13 @@ body{
 
 a{
   color: #00882d;
+  
+}
+a:hover {
+  color: #ff0000;;
 }
 .col-auto{
-  font-family:"roberta";
+  font-family:"fonteroberta";
   float:left;
 }
 .col-md-8 {
@@ -65,9 +71,20 @@ a{
   border-color: #ff0000;
   background-color: #000000;
   color: #ff0000;
+  transition-duration: 0.4s;
+  border-radius: 2px;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  border-color: #ff0000;
+  background-color: #000000;
+  color: #ff0000;
+  transition-duration: 0.4s;
+  border-radius: 2px;
 }
 .disco{
   text-align: center;
+  padding-top: 51px;
   
 }
 .container { 
@@ -96,6 +113,7 @@ a{
   
   margin-left:40px; 
 } 
+
 #nd-box { 
   display: inline-block;
   width:150px; 
